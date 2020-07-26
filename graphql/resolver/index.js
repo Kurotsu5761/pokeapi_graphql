@@ -1,7 +1,12 @@
+const { pokemonQuery, pokemonResolvers } = require("./pokemon");
+
 const rootResolver = {
-  RootQuery: {},
+  RootQuery: {
+    ...pokemonQuery,
+  },
   RootMutation: {},
   RootSubscription: {},
+  ...pokemonResolvers,
 };
 
 module.exports = rootResolver;

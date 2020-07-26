@@ -1,3 +1,5 @@
+const PokemonSchema = require("./pokemon");
+
 const rootSchema = `
 	type RootQuery{
 		_root: String
@@ -18,4 +20,4 @@ const rootSchema = `
 	}
 `;
 
-module.exports = [rootSchema];
+module.exports = [rootSchema, PokemonSchema];

@@ -1,7 +1,6 @@
 const { makeExecutableSchema } = require("graphql-tools");
 const { ApolloServer } = require("apollo-server-express");
-const Pokedex = require("pokedex-promise-v2");
-const P = new Pokedex();
+const { P } = require("../util/dependencies");
 
 //GraphQL Schema
 const typeDefs = require("./schema");

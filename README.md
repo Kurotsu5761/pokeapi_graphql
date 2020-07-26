@@ -8,7 +8,12 @@ This is a fun test on [PokeAPI](pokeapi.co) with Graphql implementation.
 
 ### Query
 
-- [ ] Get all Pokemon paginated
+#### Pokemons
+
+- [x] Get Pokemons (paginated)
+- [x] Get Pokemon By Name / Id
+- [x] Get Move By Name
+- [x] Get Ability By Name
 - [ ] Get owned Pokemon
 - [ ] Notification System
 - [ ] Get user list
