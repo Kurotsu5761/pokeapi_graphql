@@ -1,0 +1,28 @@
+{
+  "name": "pokeapi_collab",
+  "version": "1.0.0",
+  "description": "This is a fun test on [PokeAPI](pokeapi.co) with Graphql implementation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --exit",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.16.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.0.15",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.0.1",
+    "mockgoose": "^8.0.4",
+    "mongoose": "^5.9.25",
+    "pokedex-promise-v2": "^3.2.0"
+  }
+}
