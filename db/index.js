@@ -4,6 +4,9 @@ const DB_URI = process.env.DB_URI;
 function connect() {
   return new Promise((resolve, reject) => {
     if (process.env.NODE_ENV === "test") {
+      /*
+        Mocking Mongoose for integration testing 
+      */
       const Mockgoose = require("mockgoose").Mockgoose;
       const mockgoose = new Mockgoose(mongoose);
 
